@@ -96,10 +96,10 @@ menu:
   about: /about/|| user
   tags: /tags/|| tags
   categories: /categories/|| th
-  # archives: /archives/ || archive
-  # schedule: /schedule/ || calendar
-  # sitemap: /sitemap.xml || sitemap
-  # commonweal: /404/ || heartbeat
+  archives: /archives/|| archive
+  # schedule: /schedule/|| calendar
+  # sitemap: /sitemap.xml|| sitemap
+  # commonweal: /404/|| heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -129,13 +129,13 @@ scheme: Gemini
 social:
   GitHub: https://github.com/yourname || github
   E-Mail: mailto:yourname@gmail.com || envelope
-  Google: https://plus.google.com/yourname || google
+  # Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
-  YouTube: https://youtube.com/yourname || youtube
-  Instagram: https://instagram.com/yourname || instagram
+  # YouTube: https://youtube.com/yourname || youtube
+  # Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
 
 social_icons:
@@ -175,8 +175,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right (only for Pisces | Gemini).
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Sidebar Display, available value (only for Muse | Mist):
   #  - post    expand on posts automatically. Default.
@@ -250,9 +250,9 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 # ---------------------------------------------------------------
@@ -379,9 +379,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  enable: true
+  appid:  uJzp6aalds7mQzytyQaCnII8-MdYXbMMI # your leancloud application appid
+  appkey: t3F5tpe3zYAMa3LiqRV9vQ6V  # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -396,7 +396,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC81MDAzMy8yNjUyNA==
+# livere_uid: MTAyMC81MDAzMy8yNjUyNA==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -532,9 +532,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: uJzp6aalds7mQzytyQaCnII8-MdYXbMMI #<app_id>
+  app_key: t3F5tpe3zYAMa3LiqRV9vQ6V #<app_key>
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -655,7 +655,7 @@ tabs:
 
 # Use velocity to animate everything.
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
@@ -676,7 +676,7 @@ motion:
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -742,7 +742,7 @@ vendors:
 
   # Internal version: 1.9.7
   # See: https://github.com/tuupola/jquery_lazyload
-  lazyload:
+  lazyload: true
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
