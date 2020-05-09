@@ -51,7 +51,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: HHL
+  copyright: Hhliang
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: true
@@ -127,7 +127,7 @@ scheme: Gemini
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/yourname || github
+  GitHub: https://github.com/sternapeg || github
   E-Mail: mailto:yourname@gmail.com || envelope
   # Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -154,8 +154,8 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/avatar.gif
-# avatar: /images/hhl.gif
+# avatar: /images/avatar.gif
+avatar: /images/hhl.gif
 
 # Table Of Contents in the Sidebar
 toc:
@@ -217,8 +217,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 300
 
 # Post meta display settings
 post_meta:
@@ -278,7 +278,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
@@ -354,7 +354,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: a18ead7da811e8911978491e2aaa5c05
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -611,6 +611,7 @@ local_search:
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
+  unescape: false
 
 
 # ---------------------------------------------------------------
@@ -655,7 +656,7 @@ tabs:
 
 # Use velocity to animate everything.
 motion:
-  enable: false
+  enable: true
   async: false
   transition:
     # Transition variants:
@@ -742,7 +743,7 @@ vendors:
 
   # Internal version: 1.9.7
   # See: https://github.com/tuupola/jquery_lazyload
-  lazyload: true
+  lazyload:
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
